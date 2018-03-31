@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.first_main_container {
+	background-color: #000;
+}
+
+.inside_block {
+	width: 20%;
+	height: 200px;
+	background: green; 
+}
+
+.first_main_container:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.red_block {
+	background: red;
+}
+
+.blue_block {
+	width: 20%;
+	height: 100px;
+	float: left;
+	background: blue;
+}
